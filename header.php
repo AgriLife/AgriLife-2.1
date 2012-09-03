@@ -36,7 +36,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php if ( $options['feedBurner'] <> "" ) { echo $options['feedBurner']; } else { echo get_bloginfo_rss('rss2_url'); } ?>" />
 
 <link rel="stylesheet" type="text/css" href="<?php echo THEME_TEMPLATEURL;?>/css/main.css?v=100" media="screen" />
-<link rel="stylesheet" type="text/css" href="<?php echo THEME_TEMPLATEURL;?>/css/structure.css?5" media="screen" />
+<link rel="stylesheet" type="text/css" href="<?php echo THEME_TEMPLATEURL;?>/css/structure.css?v=100" media="screen" />
 <link rel="stylesheet" type="text/css" href="<?php echo THEME_TEMPLATEURL;?>/css/sitestyle-agrilife.css" media="screen" />
 <?php
 if($extensiononly) {
