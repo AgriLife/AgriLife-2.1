@@ -8,9 +8,9 @@
   $isextension	= (is_array($options) ? $options['isExtension'] : true);
   $iscollege 	= (is_array($options) ? $options['isCollege'] 	: true);
   $istvmdl	 	= (is_array($options) ? $options['isTvmdl'] 	: true);
-  
+
   $collegeonly = ($iscollege && !$isextension && !$isresearch && !$istvmdl ? true : false);
-  $footerhtml	= (is_array($options) ? $options['footerHtml'] 	: '');  
+  $footerhtml	= (is_array($options) ? $options['footerHtml'] 	: '');
 ?>
 <!-- begin footer -->
 	<div id="agrilife-footer">
@@ -23,7 +23,7 @@
 				return str_replace('https','http', $link);
 			}
 
-			if ( defined( 'DOMAIN_MAPPING' ) ) {	
+			if ( defined( 'DOMAIN_MAPPING' ) ) {
 				// stripping https out prevents mapped domains from throwing a bad SSL Cert error
 				// links to admin get redirected to https under the original (unmapped) domain
 				add_filter('edit_post_link', 'unmapped_admin_link', 10, 2);
@@ -40,7 +40,7 @@
 				<a href="http://www.tamus.edu"><img src="<?php echo THEME_TEMPLATEURL;?>/images/tamus-logo.png?v=100" alt="Texas A&amp;M System" /></a>
 			<?php endif; ?>
 			</div>
-			<div id="agrilife-site-info">		
+			<div id="agrilife-site-info">
             <div>
             	<?php echo $footerhtml;	?>
             </div>
@@ -54,7 +54,7 @@
 					<li><a href="http://itaccessibility.tamu.edu/">Accessibility Policy</a></li>
 					<li><a href="http://www.dir.texas.gov/pubs/retired/Pages/srrpub11-agencylink.aspx">State Link Policy</a></li>
 					<li><a href="http://www.tsl.state.tx.us/trail">Statewide Search</a></li>
-					<li class="row-start"><a href="http://aghr.tamu.edu/education-civil-rights.htm">Equal Opportunity for Educational Programs Statement</a></li>
+					<li class="row-start"><a href="http://agrilifeas.tamu.edu/hr/diversity/equal-opportunity-educational-programs/">Equal Opportunity for Educational Programs Statement</a></li>
 					<li><a href="http://www.tamus.edu/veterans/">Veterans Benefits</a></li>
 					<li><a href="http://fcs.tamu.edu/families/military_families/">Military Families</a></li>
 					<li class="row-start"><a href="https://secure.ethicspoint.com/domain/en/report_custom.asp?clientid=19681">Risk, Fraud &amp; Misconduct Hotline</a></li>
