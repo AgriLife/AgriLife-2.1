@@ -58,7 +58,7 @@
 					<li><a href="http://www.tamus.edu/veterans/">Veterans Benefits</a></li>
 					<li><a href="http://fcs.tamu.edu/families/military_families/">Military Families</a></li>
 					<li class="row-start"><a href="https://secure.ethicspoint.com/domain/en/report_custom.asp?clientid=19681">Risk, Fraud &amp; Misconduct Hotline</a></li>
-					<li><a href="http://www.texashomelandsecurity.com/">Texas Homeland Security</a></li>
+					<li><a href="https://gov.texas.gov/organization/hsgd">Texas Homeland Security</a></li>
 					<li><a href="http://agrilife.org/required-links/orpi/">Open Records/Public Information</a></li>
 					<li class="row-start wp-footer"><a href="http://akismet.com/">Protected by Akismet</a></li>
 					<li class="wp-footer"><a href="http://wordpress.com/">WordPress</a></li>
