@@ -357,7 +357,7 @@ if($extensiononly) {
     <div class="sub">
       <ul>
         <li><a href="http://agnews.tamu.edu">AgriLife News</a></li>
-        <li><a href="http://agrilifebookstore.org">AgriLife Bookstore</a></li>
+        <li><a href="https://agrilifelearn.tamu.edu/">AgriLife Bookstore</a></li>
         <li><a href="http://agrilifevents.tamu.edu/">Conference Services</a></li>
         <li><a href="http://agrilife.tamu.edu/lifescapes">Lifescapes Magazine</a></li>
         <li><a href="http://www.flickr.com/photos/agrilife/collections/">AgriLife Photos on Flickr</a></li>
